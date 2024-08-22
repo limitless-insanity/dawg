@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between; /* Or use space-between/space-around to add spacing */
+}
+
+.new1 {
+  height: 50%;
+    width: calc(100% / 14 - 10px); /* Adjust width to ensure 7 divs fit in a row, minus some margin */
+    margin: 5px; /* Adjust margin as needed */
+    height: 100px; /* Set a fixed height or adjust as needed */
+    background-color: lightgray; /* Add a background color to see the divs */
+}
+/* body.img{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+} */
+  #button1{
+    align-content: center;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 24px;
+    
+  }
+  #button2{
+    align-content: center;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 24px;
+  /*   visibility: 90; */
+    
+  }
+  /* #dogImage{
+    height: 30%;
+    width:30%;
+  } */
+  
+  #button1div{
+    height:50px;
+    width:50px;
+  
+    position: absolute;
+   justify-content: center;
+    margin: 0 auto;
+    
+  }
+  
+  .container{  
+  text-align: center;  
+   
+  width: 100px;  
+  height: 100px;  
+  padding-top: 10px; 
+    padding-left: 55%;
+  }  
